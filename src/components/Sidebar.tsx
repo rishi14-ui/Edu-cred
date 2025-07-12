@@ -1,17 +1,6 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
-import { 
-  Home, 
-  User, 
-  FileText, 
-  Phone, 
-  Bot, 
-  Globe, 
-  Award, 
-  Certificate, 
-  UserCircle,
-  Settings
-} from 'lucide-react';
+import { Home, User, FileText, Phone, Bot, Globe, Award, AlignCenterVertical as Certificate, UserCircle, Settings } from 'lucide-react';
 
 const Sidebar: React.FC = () => {
   const menuItems = [
