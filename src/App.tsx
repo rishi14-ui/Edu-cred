@@ -16,7 +16,7 @@ import EducrateAgent from './pages/EducrateAgent';
 import Homepage from './pages/Homepage';
 import IssueCertificate from './pages/IssueCertificate';
 import MyCertificate from './pages/MyCertificate';
-import PublicProfile from './pages/PublicProfile';
+import StudentDashboard from './pages/StudentDashboard';
 import LoadingPage from './pages/LoadingPage';
 
 function App() {
@@ -49,7 +49,7 @@ function App() {
             <Route path="homepage" element={<Homepage />} />
             <Route path="issue-certificate" element={<IssueCertificate />} />
             <Route path="my-certificate" element={<MyCertificate />} />
-            <Route path="public-profile" element={<PublicProfile />} />
+            <Route path="student-dashboard" element={<StudentDashboard />} />
           </Route>
         </Routes>
       </AnimatePresence>

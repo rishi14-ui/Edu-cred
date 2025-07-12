@@ -12,7 +12,7 @@ const Sidebar: React.FC = () => {
     { name: 'Homepage', path: '/dashboard/homepage', icon: Home },
     { name: 'Issue Certificate', path: '/dashboard/issue-certificate', icon: Award },
     { name: 'My Certificate', path: '/dashboard/my-certificate', icon: Certificate },
-    { name: 'Public Profile', path: '/dashboard/public-profile', icon: UserCircle },
+    { name: 'Student Dashboard', path: '/dashboard/student-dashboard', icon: UserCircle },
   ];
 
   return (
