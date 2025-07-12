@@ -1,6 +1,13 @@
 import React from 'react';
+import { useNavigate } from 'react-router-dom';
 
 const Hero: React.FC = () => {
+  const navigate = useNavigate();
+
+  const handleGetStarted = () => {
+    navigate('/loading');
+  };
+
   return (
     <section className="relative min-h-screen flex items-center justify-center overflow-hidden">
       {/* Background Gradient Portal Effect */}
@@ -29,7 +36,10 @@ const Hero: React.FC = () => {
         </p>
 
         {/* CTA Button */}
-        <button className="bg-white hover:bg-gray-100 text-gray-900 font-bold px-8 py-4 rounded-xl transition-all duration-200 transform hover:scale-105 shadow-2xl text-lg">
+        <button 
+          onClick={handleGetStarted}
+          className="bg-white hover:bg-gray-100 text-gray-900 font-bold px-8 py-4 rounded-xl transition-all duration-200 transform hover:scale-105 shadow-2xl text-lg"
+        >
           Get Started
         </button>
       </div>
