@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import { motion } from 'framer-motion';
-import { Certificate, Download, Eye, Share } from 'lucide-react';
+import { AlignCenterVertical as Certificate, Download, Eye, Share } from 'lucide-react';
 
 const MyCertificate: React.FC = () => {
   const [loading, setLoading] = useState(true);
